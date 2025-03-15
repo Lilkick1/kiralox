@@ -1,0 +1,30 @@
+<application
+	title="Sid Meier's Civilization IV"
+	id="{B748530D-02FE-4f8a-BC85-75D5B002EAD6}"
+	companyName="Firaxis Games"
+>
+	<entrypoint
+    		id="{95A1B986-B1A8-4c88-9ED7-4988EBFA003B}"
+    		run=".\Civ4-MCE.lnk"
+    		title="Sid Meier's Civilization IV"
+    		nowPlayingDirective=""
+    		description="Play Sid Meier's Civilization IV"
+    		imageUrl=".\Assets\res\Civ4_BoxArt.jpg"
+    		inactiveImageURL=".\Assets\res\Civ4_BoxArt.jpg"
+    		context=""
+    		UiFlags="HideTransportToolbar"
+	>
+		<capabilitiesRequired
+        		directX="true"
+        		audio="false"
+        		video="false"
+        		intensiveRendering="true"
+        		console="false"
+		>
+		</capabilitiesRequired>
+		<category
+    			category="Services\Games"
+		>
+		</category>
+	</entrypoint>
+</application>
